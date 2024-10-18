@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "price-optimisation"
+version = "0.1.0"
+description = "This project focusses oin different techniques for price optimisation . Here we explore upon different techniques"
+authors = ["Suman Paul Choudhury"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+jupyter = "^1.1.1"
+matplotlib = "^3.9.2"
+statsmodels = "^0.14.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
